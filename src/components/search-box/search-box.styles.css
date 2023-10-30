@@ -1,0 +1,13 @@
+.search-box {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin: auto;
+  background-color: burlywood;
+  color: black;
+
+  padding: 1.3rem 2rem;
+  border-radius: 40px;
+}

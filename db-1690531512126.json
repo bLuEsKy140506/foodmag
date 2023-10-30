@@ -1,0 +1,164 @@
+{
+  "recipes": [
+    {
+      "id": "sample",
+      "title": "Caprese Saladdddddd",
+      "author": "Ree Drummond",
+      "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
+      "level": "Easy",
+      "prepTime": 15,
+      "yield": "6 to 8 serving",
+      "time": "2023-07-22",
+      "ingredient": [
+        {
+          "name": "vine-ripened tomatoes, cored",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "fresh mozzarella",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "fine sea salt or fleur de sel",
+          "quantity": "3/4 to 1"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "basil leaves, torn or cut into thin strips",
+          "quantity": "1/3 cup packed basil leaves"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "direction": [
+        "Slice the tomatoes and cheese into 1/4-inch thick slices. Arrange the salad on a serving platter or individual plates in an alternating pattern, with two to three slices of tomato for every piece of cheese. Season with the salt and pepper to taste. Scatter the basil leaves over the top and drizzle with the oil. Serve at room temperature."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/7/0/FNK_Caprese-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383814461170.jpeg"
+    },
+    {
+      "id": "sample2",
+      "title": "Ala-Earl",
+      "author": "Earl Lauriece S. Butlays",
+      "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
+      "level": "Hard",
+      "prepTime": 15,
+      "yield": "6 to 8 serving",
+      "time": "2023-07-28",
+      "ingredient": [
+        {
+          "name": "vine-ripened tomatoes, cored",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "fresh mozzarella",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "fine sea salt or fleur de sel",
+          "quantity": "3/4 to 1"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "basil leaves, torn or cut into thin strips",
+          "quantity": "1/3 cup packed basil leaves"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "direction": [
+        "Slice the tomatoes and cheese into 1/4-inch thick slices. Arrange the salad on a serving platter or individual plates in an alternating pattern, with two to three slices of tomato for every piece of cheese. Season with the salt and pepper to taste. Scatter the basil leaves over the top and drizzle with the oil. Serve at room temperature."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/7/0/FNK_Caprese-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383814461170.jpeg"
+    },
+    {
+      "id": "sample3",
+      "title": "Saladdddddd",
+      "author": "Ree Drummond",
+      "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
+      "level": "Easy",
+      "prepTime": 15,
+      "yield": "6 to 8 serving",
+      "time": "2023-07-22",
+      "ingredient": [
+        {
+          "name": "vine-ripened tomatoes, cored",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "fresh mozzarella",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "fine sea salt or fleur de sel",
+          "quantity": "3/4 to 1"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "basil leaves, torn or cut into thin strips",
+          "quantity": "1/3 cup packed basil leaves"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "direction": [
+        "Slice the tomatoes and cheese into 1/4-inch thick slices. Arrange the salad on a serving platter or individual plates in an alternating pattern, with two to three slices of tomato for every piece of cheese. Season with the salt and pepper to taste. Scatter the basil leaves over the top and drizzle with the oil. Serve at room temperature."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/7/0/FNK_Caprese-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383814461170.jpeg"
+    },
+    {
+      "id": "sample4",
+      "title": "Ala-Earl Sample 4",
+      "author": "Earl Lauriece S. Butlays",
+      "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
+      "level": "Hard",
+      "prepTime": 15,
+      "yield": "6 to 8 serving",
+      "time": "2023-07-28",
+      "ingredient": [
+        {
+          "name": "vine-ripened tomatoes, cored",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "fresh mozzarella",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "fine sea salt or fleur de sel",
+          "quantity": "3/4 to 1"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "basil leaves, torn or cut into thin strips",
+          "quantity": "1/3 cup packed basil leaves"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "direction": [
+        "Slice the tomatoes and cheese into 1/4-inch thick slices. Arrange the salad on a serving platter or individual plates in an alternating pattern, with two to three slices of tomato for every piece of cheese. Season with the salt and pepper to taste. Scatter the basil leaves over the top and drizzle with the oil. Serve at room temperature."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/7/0/FNK_Caprese-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383814461170.jpeg"
+    }
+  ]
+}

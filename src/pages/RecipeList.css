@@ -1,0 +1,252 @@
+.post-buttons {
+  justify-content: space-between;
+  padding: 5rem 8rem 0rem 8rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: auto;
+  align-items: center;
+}
+
+.post-buttons button {
+  padding: 1.3rem 2rem;
+  border-radius: 40px;
+  vertical-align: center;
+}
+
+.button-dynamic {
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.post-filter {
+  gap: 10px;
+}
+
+.plus-icon {
+  font-size: 3rem;
+}
+
+.plus-button {
+  align-items: center;
+  background-color: transparent;
+}
+
+/* .post-grid {
+  padding: 4rem 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 5rem;
+} */
+
+.post-card {
+  position: relative;
+  width: 320px;
+  height: auto;
+  padding: 0 10px 10px 10px;
+  margin-bottom: 3rem;
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  box-shadow: brown 0px 0px 0px 2px inset,
+    rgba(0, 0, 0, 0.45) 0px 40px 30px -10px;
+
+  overflow: hidden;
+
+  background-image: linear-gradient(315deg, #ffffff 0%, #cea177 74%);
+}
+
+.post-card:hover {
+  /* transform: scale(1.05);
+  transition: all 0.3s ease-out; */
+  box-shadow: brown 0px 0px 0px 2px inset, #cca571 5px 5px 0px -3px,
+    brown 5px 5px, rgba(0, 0, 0, 0.45) 0px 40px 30px -10px;
+  transform: scale(1.07);
+  transition: all 0.7s ease;
+}
+
+.item-cross-allList {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+
+.item-cross-allList:hover {
+  background-color: red;
+}
+
+.post-card:hover .item-cross-allList,
+.post-card:hover .edit-icon {
+  display: block;
+}
+
+.edit-icon {
+  display: none;
+  position: absolute;
+  transform: scale(1.35);
+  border: 2px solid white;
+  top: 60%;
+  right: 3%;
+
+  background-color: lightgreen;
+}
+
+.edit-icon:hover {
+  color: green;
+}
+
+.text-field input {
+  font-size: 1.5rem;
+}
+
+.card-info {
+  padding: 1rem 2rem;
+}
+
+.post-card-img {
+  margin: 5px auto 0 auto;
+  background-color: transparent;
+  width: 300px;
+  height: 165px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.post-card-title {
+  font-size: 2rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: left;
+}
+
+.post-card-text {
+  font-size: 1.4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: left;
+}
+
+.comment-favorite {
+  gap: 4rem;
+}
+
+.post-details {
+  font-size: 0.9rem;
+  justify-content: space-between;
+}
+.date-author {
+  color: black;
+  opacity: 0.8;
+  font-size: 1rem;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.divider {
+  margin-top: 14px;
+}
+.favorite-count,
+.comment-counts,
+.post-details {
+  align-items: center;
+}
+
+.icons {
+  width: 15px;
+  height: 15px;
+
+  margin-right: 0.3rem;
+}
+
+.fav-icons {
+  font-size: 2.5rem;
+  cursor: pointer;
+  margin-right: 0.8rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .post-grid {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .recipes-display {
+    width: 100vw;
+  }
+  .post-buttons {
+    padding-top: 6.25%;
+    width: 310px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plus-label {
+    display: none;
+  }
+
+  button {
+    padding: 10rem 20rem;
+    border-radius: 40px;
+  }
+
+  .post-grid {
+    padding: 4rem 0rem;
+    width: 290px;
+    margin: auto;
+    gap: 3.2%;
+  }
+
+  .post-card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .post-card-img {
+    width: 290px;
+    height: 165px;
+  }
+  .plus-button {
+    align-items: center;
+    border: 1px solid transparent;
+  }
+  .plus-icon {
+    font-size: 3rem;
+    border: 2px solid;
+    padding: 5px 12px;
+    border-radius: 30px;
+    margin-right: -2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .comment-favorite {
+    gap: 1rem;
+  }
+
+  .button-dynamic {
+    width: 9.5rem;
+  }
+
+  .header-nav-logo {
+    margin: 0;
+    padding: 0;
+  }
+}

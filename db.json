@@ -1,0 +1,203 @@
+{
+  "recipes": [
+    {
+      "id": "Sample-1",
+      "title": "Grilled Corn with Flavored Butters",
+      "author": "Amanda Neal",
+      "text": "Buttery grilled corn is one of our favorite summer dinner staples. It’s even better with a trio of seasoned butters—think Cajun, miso and green goddess—served in shallow bowls so everyone at the table can roll an ear in their favorite flavor. Make the butters ahead of time, then pull them out of the refrigerator right before serving. It's hard to beat homemade Cajun seasoning, but feel free to use store-bought if you’re short on time. If you have leftover butter, serve it with your favorite vegetables, from boiled baby potatoes to grilled asparagus, or use it to top grilled steak or fish.",
+      "level": "Medium",
+      "prepTime": 40,
+      "yield": "8 to 10 serving",
+      "time": "2023-07-28",
+      "ingredient": [
+        {
+          "name": "2 sticks (1 cup), at room temperature",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "paprika",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "cayenne pepper",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "garlic powder",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "onion powder",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "dried oregano",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "name": "dried thyme",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "Miso butter, unsalted at room temperature",
+          "quantity": "2 sticks (1 cup)"
+        }
+      ],
+      "direction": [
+        "For the Cajun butter: Mix the butter, paprika, cayenne, garlic powder, onion powder, oregano, thyme, 2 teaspoons salt and 1/2 teaspoon black pepper in a medium bowl until well combined. Transfer to a shallow serving dish or ramekin. Cover and refrigerate until ready to serve.",
+        "For the miso butter: Mix the butter, miso, crushed red pepper flakes, rice wine vinegar, lime zest and juice and 1 teaspoon salt in a medium bowl until well combined. Transfer to a shallow serving dish or ramekin; top with a sprinkle of toasted sesame seeds. Cover and refrigerate until ready to serve.",
+        "For the green goddess butter: Add the butter, cilantro, parsley, scallions, garlic, lemon zest and juice, 2 teaspoons salt and 1/2 teaspoon black pepper to a food processor. Puree, stopping and scraping down the sides as needed, until very smooth and combined. Transfer to a shallow serving dish or ramekin. Cover and refrigerate until ready to serve.",
+        "For the grilled corn: Prepare a grill for medium-high heat. Brush the grates with a little oil.",
+        "Grill the corn, turning occasionally, until lightly charred and tender, 8 to 10 minutes. Serve hot on a large wooden board or platter with the Cajun butter, miso butter and green goddess butter."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/5/16/fnk_GRILLED_CORN_AND_THREE_FLAVORED_BUTTER_BOARD_s4x3.jpg.rend.hgtvcom.826.620.suffix/1684262642622.jpeg"
+    },
+    {
+      "id": "sample-2",
+      "title": "Ala-Earl-updated",
+      "author": "Earl Lauriece S. Butlays",
+      "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
+      "level": "Hard",
+      "prepTime": 15,
+      "yield": "6 to 8 serving",
+      "time": "2023-07-22",
+      "ingredient": [
+        {
+          "name": "vine-ripened tomatoes, cored",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "fresh mozzarella",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "fine sea salt or fleur de sel",
+          "quantity": "3/4 to 1"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "basil leaves, torn or cut into thin strips",
+          "quantity": "1/3 cup packed basil leaves"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "direction": [
+        "Slice the tomatoes and cheese into 1/4-inch thick slices. Arrange the salad on a serving platter or individual plates in an alternating pattern, with two to three slices of tomato for every piece of cheese. Season with the salt and pepper to taste. Scatter the basil leaves over the top and drizzle with the oil. Serve at room temperature."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/7/0/FNK_Caprese-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383814461170.jpeg"
+    },
+    {
+      "id": "sample3",
+      "title": "Caprese Salad",
+      "author": "Ree Drummond",
+      "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
+      "level": "Easy",
+      "prepTime": 15,
+      "yield": "6 to 8 serving",
+      "time": "2023-07-28",
+      "ingredient": [
+        {
+          "name": "vine-ripened tomatoes, cored",
+          "quantity": "1½ pounds"
+        },
+        {
+          "name": "fresh mozzarella",
+          "quantity": "1 pound"
+        },
+        {
+          "name": "fine sea salt or fleur de sel",
+          "quantity": "3/4 to 1"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "quantity": "1"
+        },
+        {
+          "name": "basil leaves, torn or cut into thin strips",
+          "quantity": "1/3 cup packed basil leaves"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "quantity": "1/4 cup"
+        }
+      ],
+      "direction": [
+        "Slice the tomatoes and cheese into 1/4-inch thick slices. Arrange the salad on a serving platter or individual plates in an alternating pattern, with two to three slices of tomato for every piece of cheese. Season with the salt and pepper to taste. Scatter the basil leaves over the top and drizzle with the oil. Serve at room temperature."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/10/7/0/FNK_Caprese-Salad_s4x3.jpg.rend.hgtvcom.826.620.suffix/1383814461170.jpeg"
+    },
+    {
+      "id": "sample-4",
+      "title": "Marinated Chicken Thighs",
+      "author": "Marc Forgione",
+      "text": "Marc says, This is a great basic marinade for grilling meats, and the pink peppercorns add a nice spicy kick",
+      "level": "Hard",
+      "prepTime": "8 hrs and 30 ",
+      "yield": "4 serving",
+      "time": "2023-07-27",
+      "ingredient": [
+        {
+          "name": "fresh parsley leaves, chopped",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "fresh thyme, chopped",
+          "quantity": "8 large sprigs"
+        },
+        {
+          "name": "fresh rosemary, chopped",
+          "quantity": "4 large sprigs"
+        },
+        {
+          "name": "garlic, minced",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "shallot diced",
+          "quantity": "1 small"
+        },
+        {
+          "name": "chicken thighs",
+          "quantity": "8 skin-on"
+        }
+      ],
+      "direction": [
+        "Mix the parsley, thyme, rosemary, garlic, shallots, black peppercorns and pink peppercorns together in a bowl. Add the olive oil to cover the herbs/spices. Set aside 2 tablespoons of the marinade.",
+        "Place the chicken thighs in a resealable plastic bag. Add the marinade and marinate overnight in the refrigerator.",
+        "Preheat the grill to medium.",
+        "Remove the chicken thighs from the marinade, pat with a paper towel and place, fleshy-side down, on the hot grill. Grill until cooked through, turning once, 7 to 8 minutes per side. Finish with the reserved 2 tablespoons of marinade and some flaky salt. Serve on top of your favorite salad."
+      ],
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/5/18/1/ES-Forgione_marinated-chicken-thighs_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371609085893.jpeg"
+    },
+    {
+      "id": "pttprjx",
+      "title": "fff",
+      "text": "dfdf",
+      "author": "dfdf",
+      "level": "Easy",
+      "prepTime": "fdfd",
+      "yield": "fd",
+      "time": "2023-10-30",
+      "ingredient": [
+        {
+          "name": "dfdf",
+          "quantity": "fdf"
+        }
+      ],
+      "direction": [
+        "fddff"
+      ],
+      "imageUrl": ""
+    }
+  ]
+}

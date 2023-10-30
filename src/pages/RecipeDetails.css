@@ -1,0 +1,90 @@
+.single-recipe {
+  width: 95vw;
+  margin: auto;
+}
+
+.top-container {
+  color: black;
+}
+
+.first-level {
+  border: 3px solid pink;
+}
+.first-level-type-1 {
+  display: flex;
+  justify-content: center;
+}
+.second-level {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.second-level-type-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.third-level-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 6px;
+}
+
+.img-1 img {
+  height: 400px;
+  width: 100%;
+
+  min-width: 260px;
+  margin: 10px auto;
+}
+
+.text-1 {
+  height: 50%;
+
+  display: flex;
+  align-items: center;
+}
+.group-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.group-type-1 {
+  display: flex;
+  flex-direction: column;
+
+  width: 320px;
+}
+.group-item {
+  padding: 3px 6px;
+}
+
+.arrayitem {
+  padding: 3px 5px;
+  margin: 10px 0;
+  border: 1px solid lightsalmon;
+}
+
+.arrayitem:nth-child(odd),
+.array-item-type-1:nth-child(odd) {
+  background-color: rgba(255, 182, 193, 0.645);
+}
+.array-item-type-1 {
+  padding: 10px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.list-number {
+  font-size: 2rem;
+  padding: 5px;
+}
+.box-1 {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,253 @@
+.newpost-container {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-back {
+  align-self: flex-start;
+  margin-left: 4rem;
+}
+
+.recipes-display {
+  background-color: rgba(255, 255, 255, 0.942);
+}
+.new-detail {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.separator-box {
+  border: 5px solid lightcoral;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+
+.separator-box-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-portion {
+  width: 90%;
+  margin: auto;
+}
+
+.form-format input,
+.form-format textarea,
+.form-format label,
+.form-format button {
+  font-size: 1.5rem;
+}
+
+.select-format {
+  height: 6rem;
+  font-size: 2rem;
+  width: 120px;
+}
+
+.ingredient-name {
+  width: 280px;
+}
+.description-section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 20rem;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form-inline:nth-child(odd) {
+  background: rgba(255, 211, 218, 0.535);
+}
+
+.ing-label {
+  color: transparent;
+  width: 100%;
+}
+.remove {
+  background-color: red;
+  height: fit-content;
+  padding: 5px;
+}
+
+.form-inline-oneline {
+  width: 70%;
+}
+
+.form-inline button {
+  height: 1.5rem;
+}
+
+.form-inline textarea {
+  color: black;
+  margin-bottom: 15px;
+  height: fit-content;
+}
+
+.recipe-image {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredient-dishimage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.add-ingredient {
+  flex-grow: 1;
+}
+
+.item-cross {
+  margin: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+
+.item-cross:hover {
+  background-color: red;
+}
+.image-preview {
+  width: 410px;
+  height: 320px;
+}
+
+.add-image-background {
+  border-radius: 10px;
+}
+.btn {
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  height: 35px;
+  font-size: 20px;
+}
+
+.single-blog {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  width: 100vw;
+}
+
+.link-back {
+  align-self: flex-start;
+  margin-bottom: 4rem;
+}
+
+.n-label {
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+}
+
+.n-title,
+.n-text {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.newpost-title,
+.newpost-text {
+  width: 90%;
+  height: 10rem;
+}
+
+.image-preview {
+  background-size: cover;
+}
+
+.post {
+  margin-top: 4rem;
+  padding: 13px 36px;
+  color: white;
+  background: #0266ff;
+  border-radius: 6px;
+}
+
+.inactive {
+  background-color: #c0bfcf;
+  border: transparent;
+  cursor: default;
+}
+
+.add-image-background {
+  background-color: #e0e0e0;
+}
+
+.button-format button {
+  margin: 30px 10px;
+}
+
+.button-color-modify button {
+  background-color: lightseagreen;
+}
+
+.button-color-modify button:hover {
+  background-color: rgb(27, 151, 145);
+}
+
+@media only screen and (max-width: 910px) {
+  .App,
+  .route-layout {
+    padding: 0;
+    width: 100vw;
+    margin: auto;
+  }
+  .single-blog {
+    padding: 4rem 0px;
+    width: 93.75%;
+    margin: auto;
+  }
+  .newpost-container {
+    padding: 0;
+    width: 93.75%;
+    margin: auto;
+  }
+
+  .new-detail {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .image-button {
+    padding: 12px 20px;
+  }
+
+  .link-back {
+    margin-bottom: 2rem;
+  }
+
+  .n-label {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .n-title,
+  .n-text {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .newpost-title,
+  .newpost-text {
+    width: 100%;
+    margin: auto;
+    height: 10rem;
+  }
+
+  .add-image-background,
+  .image-uploader,
+  .image-preview {
+    width: 70%;
+    min-width: 280px;
+    margin: auto;
+    padding: 0px;
+  }
+}
