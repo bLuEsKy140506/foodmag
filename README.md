@@ -1,4 +1,4 @@
-Live view: [https://foodmag.vercel.app/](https://foodmag.vercel.app)/)
+Live view: [https://foodmag.vercel.app/](https://foodmag.vercel.app)
 
 
 
