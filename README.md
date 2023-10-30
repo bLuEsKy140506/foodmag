@@ -1,3 +1,7 @@
+Live view: [https://foodmag.vercel.app/](https://foodmag.vercel.app)/)
+
+
+
 # HA-FoodMagazine-GITFLOW
 
 You and your friend want to share recipes with your audience. To do that,
@@ -40,3 +44,6 @@ To develop these functions, you can create an array that contains objects. Each 
 Add filter and search functions for the list of recipes. Create a new feature
 named “search-filter-functions” and develop the functions in this branch.
 To develop these functions, use appropriate array methods.
+
+===============================
+For reference of the exact date this has been committed, just refer to this repository [https://github.com/bLuEsKy140506/food-magazine](https://github.com/bLuEsKy140506/food-magazine)
