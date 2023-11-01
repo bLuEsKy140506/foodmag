@@ -33,6 +33,20 @@ const style = {
   p: 4,
 };
 
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { brown } from "@mui/material/colors";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: brown[300],
+      main: brown[500],
+      dark: brown[700],
+      darker: brown[900],
+    },
+  },
+});
+
 export default function RecipeList() {
   const dispatch = useDispatch();
   const [searchField, setSearchField] = useState(""); //[value, setValue]
@@ -135,9 +149,11 @@ export default function RecipeList() {
           </div>
 
           <Link to="recipes/post-new">
-            <Button variant="contained">
-              <AddCircleIcon fontSize="large" />
-            </Button>
+            <ThemeProvider theme={theme}>
+              <Button sx={{ bgcolor: `primary.darker`, width: 70, height: 50 }}>
+                <AddCircleIcon fontSize="large" />
+              </Button>
+            </ThemeProvider>
           </Link>
         </div>
         <PaginatedItems itemsPerPage={4} arrayObject={finalFilteredList} />

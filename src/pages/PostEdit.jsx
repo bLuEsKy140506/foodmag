@@ -16,12 +16,19 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 import { updateRecipe } from "../store/reducers/recipes";
 
 export default function PostEdit() {
-  const recipeID = useLoaderData();
+  //const recipeID = useLoaderData(); ---- uncomment when use for vite development
+
+  /* line 10 - 13, comment these line when use for vite development*/
+  const recipe_Id = useLoaderData();
+  const recipeAll = useSelector((state) => state.recipes);
+  const index = recipeAll.findIndex((i) => i.id === recipe_Id);
+  const recipeID = recipeAll[index];
+
   const [url, setUrl] = useState(recipeID.imageUrl);
   const [author, setAuthor] = useState(recipeID.author);
   const [title, setTitle] = useState(recipeID.title);
@@ -34,8 +41,6 @@ export default function PostEdit() {
   const [directionArray, setDirectionArray] = useState(recipeID.direction);
   const dispatch = useDispatch();
 
-  //id generator copied from react router tutorial
-  console.log(ingredientsArray);
   const handleImageSuccess = (imageUrl) => {
     setUrl(imageUrl);
   };
@@ -301,9 +306,15 @@ export default function PostEdit() {
     </>
   );
 }
+//---- uncomment when use for vite development
+// export const recipeID = async ({ params }) => {
+//   const { id } = params;
+//   const res = await fetch("http://localhost:3000/recipes/" + id);
+//   return res.json();
+// };
 
+/* line 317 - 320, comment these line when use for vite development */
 export const recipeID = async ({ params }) => {
   const { id } = params;
-  const res = await fetch("http://localhost:3000/recipes/" + id);
-  return res.json();
+  return id;
 };

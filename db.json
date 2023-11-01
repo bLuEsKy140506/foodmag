@@ -58,13 +58,13 @@
     },
     {
       "id": "sample-2",
-      "title": "Ala-Earl-updated",
+      "title": "Ala-Earl-updated-online",
       "author": "Earl Lauriece S. Butlays",
       "text": "Fresh, juicy tomatoes are the star of this classic salad. Just four ingredients and you have the perfect appetizer for your next gathering. Top with basil and drizzle with olive oil to bring it all together.",
       "level": "Hard",
       "prepTime": 15,
       "yield": "6 to 8 serving",
-      "time": "2023-07-22",
+      "time": "2023-10-30",
       "ingredient": [
         {
           "name": "vine-ripened tomatoes, cored",
@@ -178,26 +178,6 @@
         "Remove the chicken thighs from the marinade, pat with a paper towel and place, fleshy-side down, on the hot grill. Grill until cooked through, turning once, 7 to 8 minutes per side. Finish with the reserved 2 tablespoons of marinade and some flaky salt. Serve on top of your favorite salad."
       ],
       "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/5/18/1/ES-Forgione_marinated-chicken-thighs_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371609085893.jpeg"
-    },
-    {
-      "id": "pttprjx",
-      "title": "fff",
-      "text": "dfdf",
-      "author": "dfdf",
-      "level": "Easy",
-      "prepTime": "fdfd",
-      "yield": "fd",
-      "time": "2023-10-30",
-      "ingredient": [
-        {
-          "name": "dfdf",
-          "quantity": "fdf"
-        }
-      ],
-      "direction": [
-        "fddff"
-      ],
-      "imageUrl": ""
     }
   ]
 }

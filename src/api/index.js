@@ -23,7 +23,7 @@ export const recipesAPI = {
   },
 
   //POSTING ---------------------------------------
-  createOne: (recipe) => {
+  createOne: async (recipe) => {
     const data = recipe;
 
     const options = {
@@ -33,9 +33,8 @@ export const recipesAPI = {
         "Content-Type": "application/json",
       },
     };
-    return fetch(`${BASE_URL}/recipes`, options).then((res) => {
-      return res.json();
-    });
+    const res = await fetch(`${BASE_URL}/recipes`, options);
+    return await res.json();
   },
 
   //REMOVING -------------------------------------

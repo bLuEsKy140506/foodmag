@@ -181,9 +181,19 @@
   margin-right: 0.8rem;
 }
 
+.brown {
+  background-color: brown;
+}
+
 @media only screen and (max-width: 900px) {
   .post-grid {
     gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .post-buttons {
+    padding: 2rem 1rem;
   }
 }
 
@@ -220,8 +230,8 @@
   }
 
   .post-card-img {
-    width: 290px;
-    height: 165px;
+    width: 100%;
+    height: auto;
   }
   .plus-button {
     align-items: center;
@@ -233,6 +243,10 @@
     padding: 5px 12px;
     border-radius: 30px;
     margin-right: -2rem;
+  }
+
+  .post-filter {
+    display: none;
   }
 }
 

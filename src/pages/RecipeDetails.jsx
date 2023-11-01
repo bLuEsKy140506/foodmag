@@ -1,10 +1,16 @@
 import { useLoaderData } from "react-router-dom";
 import { Link } from "react-router-dom";
-
+import { useSelector } from "react-redux";
 import "./RecipeDetails.css";
 
 export default function RecipeDetails() {
-  const recipeID = useLoaderData();
+  //const recipeID = useLoaderData(); ---- uncomment when use for vite development
+
+  /* line 10 - 13, comment these line when use for vite development*/
+  const recipe_Id = useLoaderData();
+  const recipeAll = useSelector((state) => state.recipes);
+  const index = recipeAll.findIndex((i) => i.id === recipe_Id);
+  const recipeID = recipeAll[index];
 
   return (
     <>
@@ -80,9 +86,15 @@ export default function RecipeDetails() {
     </>
   );
 }
+// ---- uncomment when use for vite development
+// export const recipeIDdetails = async ({ params }) => {
+//   const { id } = params;
+//   const res = await fetch("http://localhost:3000/recipes/" + id);
+//   return res.json();
+// };
 
+/* line 97 - 100, comment these line when use for vite development*/
 export const recipeIDdetails = async ({ params }) => {
   const { id } = params;
-  const res = await fetch("http://localhost:3000/recipes/" + id);
-  return res.json();
+  return id;
 };

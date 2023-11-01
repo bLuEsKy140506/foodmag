@@ -87,6 +87,15 @@
   color: #0266ff;
 }
 
+@media only screen and (max-width: 900px) {
+  .header-nav {
+    padding: 0rem;
+  }
+  .header-nav-lvl2 {
+    gap: 4rem;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .header-nav-lvl3 {
     gap: 1rem;
@@ -103,7 +112,7 @@
   }
 
   .header-nav-signup {
-    width: 150px;
+    width: 100%;
     gap: 1rem;
     justify-content: end;
   }
