@@ -246,14 +246,8 @@
   .image-uploader,
   .image-preview {
     width: 70%;
-    min-width: 280px;
+    min-width: 250px;
     margin: auto;
     padding: 0px;
   }
 }
-
-/* @media only screen and (max-width: 510px) {
-  .App {
-    width: 140vw;
-  }
-} */

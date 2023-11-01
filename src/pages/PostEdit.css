@@ -1,0 +1,28 @@
+@media only screen and (max-width: 850px) {
+  .separator-box {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .add-portion {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .form-format {
+    width: 300px;
+  }
+  .new-detail,
+  .add-portion {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .separator-box {
+    width: 320px;
+  }
+}

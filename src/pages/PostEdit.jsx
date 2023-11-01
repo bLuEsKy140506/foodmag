@@ -118,7 +118,7 @@ export default function PostEdit() {
           <h2 className="n-label">Modify information this recipe</h2>
           <div className="new-detail flex-row">
             <div className="add-portion">
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit} className="formgroup-format">
                 <FormGroup className="form-format">
                   <div className="separator-box separator-box-column">
                     <h3>Fill-up the information here</h3>

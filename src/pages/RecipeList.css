@@ -226,7 +226,7 @@
 
   .post-card {
     width: 300px;
-    height: 300px;
+    height: auto;
   }
 
   .post-card-img {
